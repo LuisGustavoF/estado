@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estado.css">
+    <title>Qual o seu estado?</title>
+</head>
+
+<body>
+
+    <h2> Descubra a região que você mora:</h2>
+    <form class="formulario"  method="get" action="estado.php">
+        <label for="status">Selecione seu estado: </label>
+        <input name="status" list="lista-status" placeholder="clique e selecione">
+        <datalist id="lista-status">
+            <option value="Acre (AC)">
+            <option value="Alagoas (AL)">
+            <option value="Amapá (AP)">
+            <option value="Amazonas (AM)">
+            <option value="Bahia (BA)">
+            <option value="Ceará (CE)">
+            <option value="Distrito Federal (DF)">
+            <option value="Espírito Santo (ES)">
+            <option value="Goiás (GO)">
+            <option value="Maranhão (MA)">
+            <option value="Mato Grosso (MT)">
+            <option value="Mato Grosso do Sul (MS)">
+            <option value="Minas Gerais (MG)">
+            <option value="Pará (PA)">
+            <option value="Paraíba (PB)">
+            <option value="Paraná (PR)">
+            <option value="Pernambuco (PE)">
+            <option value="Piauí (PI)">
+            <option value="Rio de Janeiro (RJ)">
+            <option value="Rio Grande do Norte (RN)">
+            <option value="Rio Grande do Sul (RS)">
+            <option value="Rondônia (RO)">
+            <option value="Roraima (RR)">
+            <option value="Santa Catarina (SC)">
+            <option value="São Paulo (SP)">
+            <option value="Sergipe (SE)">
+            <option value="Tocantins (TO)">
+        </datalist>
+        <input class="botao" type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

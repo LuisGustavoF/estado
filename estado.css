@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+:root {
+    --Cor1: #1a1913;
+    --Cor2: #dd1226;
+    --Cor3: #e0e0e0;
+}
+
+*{
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center;
+    
+}
+
+body{
+    background-color:  var(--Cor3);
+    padding: 20px;
+    
+}
+
+button{
+    background-color: var(--Cor1);
+    cursor: pointer;
+    color: var(--Cor3);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+button:hover{
+    background-color: var(--Cor3);
+    color: black;
+}
+
+.botao{
+    background-color: var(--Cor1);
+    cursor: pointer;
+    color: var(--Cor3);
+}
+
+.botao:hover{
+    background-color: var(--Cor3);
+    color: black;
+}
+
+img{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formulario{
+    padding: 40px;
+    font-size: 30px;
+}
