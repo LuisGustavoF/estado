@@ -67,7 +67,7 @@
             echo "<img src='triste.png'/>";
     }
     ?>
-    <p><a href="estado.html"><button>Voltar</button></a></p>
+    <p><a href="index.html"><button>Voltar</button></a></p>
 
 </body>
 
